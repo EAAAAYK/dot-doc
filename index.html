@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>.doc(ドットドック) - パス付き資料の作成・共有サービス</title>
+    <link rel="stylesheet" href="css/ress.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dawning+of+a+New+Day&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Oooh+Baby&family=Paytone+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="inner">
+        <a class="logo-svg" href="#"
+          ><svg
+            width="55"
+            height="24"
+            viewBox="0 0 55 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.609 19.2437H3.868L3.259 22.6847H0L0.609 19.2437Z"
+              fill="#4C566A"
+            />
+            <path
+              d="M16.963 21.3487C16.9101 21.417 16.8486 21.4782 16.78 21.5307C16.2642 22.0536 15.639 22.4556 14.9492 22.7079C14.2595 22.9602 13.5224 23.0564 12.791 22.9897C9.25799 22.9897 7.55298 21.4707 7.55298 18.3407C7.56723 17.4531 7.65891 16.5684 7.82698 15.6967L8.22698 13.4177C9.04898 8.79873 10.907 6.94573 14.714 6.94573C15.8444 6.91002 16.9655 7.1608 17.973 7.67473C18.1867 7.81028 18.3814 7.97372 18.552 8.16073L18.796 8.34273L20.101 0.989731H23.207L19.37 22.6897H16.964L16.963 21.3487ZM10.872 15.9097C10.7584 16.4904 10.6972 17.0801 10.689 17.6717C10.689 19.5557 11.572 20.4977 13.4 20.4977C15.623 20.4977 16.9 19.1607 17.39 16.3647L17.877 13.5647C17.9634 13.1026 18.0142 12.6346 18.029 12.1647C18.0721 11.7894 18.0287 11.4092 17.9023 11.0533C17.7758 10.6973 17.5695 10.375 17.2993 10.111C17.029 9.84705 16.702 9.64842 16.3431 9.53033C15.9843 9.41224 15.6032 9.37783 15.229 9.42973C13.006 9.42973 11.788 10.8297 11.209 14.0177L10.872 15.9097Z"
+              fill="#4C566A"
+            />
+            <path
+              d="M25.644 13.3667C26.436 8.79873 28.537 6.90973 32.862 6.90973C36.882 6.90973 38.801 8.46273 38.801 11.7217C38.7822 12.549 38.7007 13.3738 38.557 14.1887L38.131 16.5337C37.339 21.1017 35.207 22.9907 30.913 22.9907C26.893 22.9907 24.974 21.4067 24.974 18.1487C24.9902 17.3415 25.0718 16.5368 25.218 15.7427L25.644 13.3667ZM35.481 13.9757C35.5935 13.3821 35.6547 12.7799 35.664 12.1757C35.664 10.3177 34.689 9.40473 32.74 9.40473C30.395 9.40473 29.207 10.7447 28.629 13.9727L28.294 15.9217C28.1804 16.5038 28.1192 17.0948 28.111 17.6877C28.111 19.5757 29.055 20.4877 31.035 20.4877C33.38 20.4877 34.568 19.1477 35.146 15.9197L35.481 13.9757Z"
+              fill="#4C566A"
+            />
+            <path
+              d="M53.3881 20.6097C52.7116 21.4164 51.8544 22.052 50.886 22.4648C49.9176 22.8777 48.8654 23.0562 47.8151 22.9857C44.1601 22.9857 42.181 21.1587 42.181 17.8087C42.2071 16.8897 42.2988 15.9737 42.4551 15.0677L42.6381 13.9407C43.0951 11.4127 43.643 10.0727 44.709 8.91573C45.3448 8.23828 46.1209 7.7078 46.9829 7.36132C47.845 7.01484 48.7723 6.86072 49.7001 6.90974C52.4711 6.90974 54.2071 7.91473 55.0001 9.95573L52.472 10.9607C52.245 10.4467 51.8595 10.0188 51.3719 9.73942C50.8844 9.46003 50.3203 9.34381 49.762 9.40774C47.539 9.40774 46.29 10.8997 45.681 14.2807L45.4371 15.7117C45.3412 16.2956 45.2904 16.886 45.285 17.4777C45.285 19.5187 46.1991 20.4927 48.1481 20.4927C48.7687 20.5157 49.3858 20.3894 49.9475 20.1243C50.5092 19.8593 50.9991 19.4634 51.376 18.9697L53.3881 20.6097Z"
+              fill="#4C566A"
+            />
+          </svg>
+        </a>
+        <a class="header-btn c-btn" href="#">登録/ログイン</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="kv">
+        <div class="inner">
+          <div class="kv-left">
+            <h1 class="kv-title">さくっと、パス付き資料の作成&共有</h1>
+            <ul class="kv-list">
+              <li class="kv-list__item">ストレスなくサクサク書ける</li>
+              <li class="kv-list__item">ドキュメントはパス付きで共有可能</li>
+              <li class="kv-list__item">ベータ版の期間は完全無料</li>
+            </ul>
+            <a class="kv-btn c-btn c-btn--arrow" href="#">登録する</a>
+          </div>
+          <div class="kv-right">
+            <img
+              class="kv-right__img"
+              src="img/top-kv-illustration.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="feature">
+        <div class="featureTop-svg">
+          <svg
+            viewBox="0 0 1366 211"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 182.4L45.5333 187.435C91.0667 192.85 182.133 202.35 273.2 207.765C364.267 212.8 455.333 212.8 546.4 192.565C637.467 171.95 728.533 132.05 819.6 116.565C910.667 101.65 1001.73 111.15 1092.8 106.4C1183.87 101.65 1274.93 80.75 1320.47 70.965L1366 60.8V0H1320.47C1274.93 0 1183.87 0 1092.8 0C1001.73 0 910.667 0 819.6 0C728.533 0 637.467 0 546.4 0C455.333 0 364.267 0 273.2 0C182.133 0 91.0667 0 45.5333 0H0V182.4Z"
+              fill="#ECEFF4"
+            />
+          </svg>
+        </div>
+        <div class="inner">
+          <h2 class="c-title-level2 feature-title">快適さへのこだわり</h2>
+          <ul class="feature-list">
+            <li class="feature-list__item">
+              <img
+                class="feature-list__itemImg"
+                src="img/icon-function.svg"
+                alt=""
+              />
+              <h3 class="feature-list__itemName c-title-level3">
+                シンプルな機能
+              </h3>
+              <p class="feature-list__itemText c-base-text">
+                多機能でない分、わかりやすく・使いやす機能。書くこと、共有することにのみ特化。
+              </p>
+            </li>
+            <li class="feature-list__item">
+              <img
+                class="feature-list__itemImg"
+                src="img/icon-document.svg"
+                alt=""
+              />
+              <h3 class="feature-list__itemName c-title-level3">
+                綺麗なドキュメント
+              </h3>
+              <p class="feature-list__itemText c-base-text">
+                見やすいドキュメント、見やすい管理画面。シンプルでわかりやすいデザイン。
+              </p>
+            </li>
+            <li class="feature-list__item">
+              <img
+                class="feature-list__itemImg"
+                src="img/icon-editor.svg"
+                alt=""
+              />
+              <h3 class="feature-list__itemName c-title-level3">
+                書きやすいエディタ
+              </h3>
+              <p class="feature-list__itemText c-base-text">
+                ドキュメント作成画面の装飾はショートカットを用意。慣れればサクサク。
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="featureBottom-svg">
+          <svg
+            viewBox="0 0 1366 244"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 212.8L75.8889 187.435C151.778 162.45 303.556 111.15 455.333 96.235C607.111 80.75 758.889 101.65 910.667 91.2C1062.44 80.75 1214.22 40.85 1290.11 20.235L1366 0V243.2H1290.11C1214.22 243.2 1062.44 243.2 910.667 243.2C758.889 243.2 607.111 243.2 455.333 243.2C303.556 243.2 151.778 243.2 75.8889 243.2H0V212.8Z"
+              fill="#2D3440"
+            />
+          </svg>
+        </div>
+      </section>
+
+      <section class="function">
+        <div class="inner">
+          <h2 class="c-title-level2 function-title">.docの機能</h2>
+          <ul class="function-list">
+            <li class="function-list__item">
+              <img
+                class="function-list__itemImg"
+                src="img/top-function-document@2x.png"
+                alt=""
+              />
+              <div class="text--flex-right">
+                <h3 class="function-list__itemName c-title-level3">
+                  ドキュメント作成
+                </h3>
+                <p class="function-list__itemText c-base-text">
+                  装飾はボタンをワンクリック、もしくはショートカットキーで、綺麗に作成可能。
+                </p>
+              </div>
+            </li>
+            <li class="function-list__item">
+              <img
+                class="function-list__itemImg"
+                src="img/top-function-share@2x.png"
+                alt=""
+              />
+              <div class="text--flex-left">
+                <h3 class="function-list__itemName c-title-level3">
+                  webページとして共有可能
+                </h3>
+                <p class="function-list__itemText c-base-text">
+                  パスワード付き共有 /
+                  一般公開(URLを知っていれば閲覧可)/非公開の3つを用意。
+                </p>
+              </div>
+            </li>
+            <li class="function-list__item">
+              <img
+                class="function-list__itemImg"
+                src="img/top-function-tag@2x.png"
+                alt=""
+              />
+              <div class="text--flex-right">
+                <h3 class="function-list__itemName c-title-level3">
+                  タグでドキュメントを管理
+                </h3>
+                <p class="function-list__itemText c-base-text">
+                  ドキュメントはタグ付けすることで、分類が可能。もちろん追加削除
+                  / 複数指定も可能。
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-svg">
+        <svg
+          viewBox="0 0 1366 106"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 91.0016L56.9167 80.881C113.833 71.1388 227.667 50.3301 341.5 55.7214C455.333 60.7344 569.167 91.0016 683 101.122C796.833 110.865 910.667 101.406 1024.5 91.0016C1138.33 80.5973 1252.17 71.1388 1309.08 65.7474L1366 60.7344V0.199951H1309.08C1252.17 0.199951 1138.33 0.199951 1024.5 0.199951C910.667 0.199951 796.833 0.199951 683 0.199951C569.167 0.199951 455.333 0.199951 341.5 0.199951C227.667 0.199951 113.833 0.199951 56.9167 0.199951H0V91.0016Z"
+            fill="#2E3440"
+          />
+        </svg>
+      </div>
+      <div class="inner">
+        <ul class="menu-list">
+          <li class="menu-list__item">
+            <a class="menu-link" href="#">トップ</a>
+          </li>
+
+          <li class="menu-list__item">
+            <a class="menu-link" href="#">利用規約</a>
+          </li>
+
+          <li class="menu-list__item">
+            <a class="menu-link" href="#">プライバシーポリシー</a>
+          </li>
+
+          <li class="menu-list__item">
+            <a class="menu-link" href="#"> 運営会社</a>
+          </li>
+        </ul>
+        <p class="copyright">&copy; 2021 dot-doc inc.</p>
+      </div>
+    </footer>
+  </body>
+</html>
